@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="md:px-80 font-light  text-center mb-5 md:mb-10 flex flex-col items-center">
+      <div className="md:px-80 font-extralight  text-center mb-5 md:mb-10 mt-36 md:mt-56 flex flex-col items-center">
         <p>© 2019-2023 abcTechnology Solutions Pvt. Ltd. All Rights Reserved</p>
       </div>
     </main>
