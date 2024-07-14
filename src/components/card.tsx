@@ -16,7 +16,7 @@ const Card: FC<CardProps> = ({ image, alt, description }) => {
                 width={800}
                 height={800}
             />
-            <p className='text-center font-roboto font-light leading-tight mt-4 md:mt-6'>
+            <p className='text-center font-roboto font-extralight leading-tight mt-4 md:mt-6 capitalize'>
                 {description}
             </p>
         </div>

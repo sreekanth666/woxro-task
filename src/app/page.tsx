@@ -44,7 +44,7 @@ export default function Home() {
 
       <div className="sm:px-9 md:px-14 lg:px-28 xl:px-44 mb-20 md:mb-32">
         <div className="flex flex-col items-center gap-5 md:gap-10">
-          <p className="text-3xl md:text-4xl font-[100] text-center w-11/12">
+          <p className="text-3xl md:text-4xl font-[100] text-center w-11/12 capitalize">
             Epic Games : An American video game and software developer and publisher based in Cary, North Carolina.
           </p>
           <Image
@@ -89,8 +89,8 @@ export default function Home() {
       </div>
 
       <div className="sm:px-14 md:px-32 lg:px-52 xl:px-80 text-center mb-20 md:mb-32 flex flex-col items-center">
-        <p className="font-roboto font-light text-2xl sm:text-3xl md:text-4xl">Interested in Delving Deeper into the Project?</p>
-        <p className="text-center text-lg md:text-xl mt-6 md:mt-10 font-light w-full sm:w-11/12 md:w-5/6 lg:w-3/4 xl:w-2/3 leading-tight">
+        <p className="font-roboto font-light text-2xl sm:text-3xl md:text-4xl capitalize">Interested in Delving Deeper into the Project?</p>
+        <p className="text-center text-lg md:text-xl mt-6 md:mt-10 font-light w-full sm:w-[80%] md:w-[85%] lg:w-[70%] xl:w-[75%] leading-tight">
           If you&apos;d like to explore further details about our initiatives or any of our affiliated brands, don&apos;t hesitate to connect. You can reach out to us via email at <span className="font-medium">hello@abc.com</span> or give us a call at <span className="font-medium">+91 480 20802730</span>.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7 w-full sm:w-11/12 md:w-5/6 lg:w-3/4 xl:w-2/3 mt-10 md:mt-16">
