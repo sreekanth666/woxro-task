@@ -1,6 +1,3 @@
-Certainly! Here's the README in a copy-paste format:
-
-
 # Design Task - React Project
 
 This project is built using Next.js and React.js with pnpm as the package manager. The images are loaded using `next/image` and the project is fully built for Server-Side Rendering (SSR), utilizing `sharp` for image rendering.
