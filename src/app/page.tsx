@@ -52,6 +52,7 @@ export default function Home() {
             alt="Epic Games Fortnite game image"
             width={1080}
             height={768}
+            priority
           />
           <p className="font-poppins text-center md:w-10/12 text-sm font-light">
             Create, play, and battle with friends for free in Fortnite. Be the last player standing in Battle Royale and Zero Build, experience a concert or live event, or discover over a million creator made games, including racing, parkour, zombie survival, and more. Each Fortnite island has an individual age rating so you can find the one that&apos;s right for you and your friends. Find it all in Fortnite ... Drop In.
@@ -91,7 +92,7 @@ export default function Home() {
       <div className="sm:px-14 md:px-32 lg:px-52 xl:px-80 text-center mb-20 md:mb-32 flex flex-col items-center">
         <p className="font-roboto font-light text-2xl sm:text-3xl md:text-4xl capitalize">Interested in Delving Deeper into the Project?</p>
         <p className="text-center text-lg md:text-xl mt-6 md:mt-10 font-light w-full sm:w-[80%] md:w-[85%] lg:w-[70%] xl:w-[75%] leading-tight">
-          If you&apos;d like to explore further details about our initiatives or any of our affiliated brands, don&apos;t hesitate to connect. You can reach out to us via email at <span className="font-medium">hello@abc.com</span> or give us a call at <span className="font-medium">+91 480 20802730</span>.
+          If you&apos;d like to explore further details about our initiatives or any of our affiliated brands, don&apos;t hesitate to connect. You can reach out to us via email at <a href="mailto:hello@abc.com" className="font-medium">hello@abc.com</a> or give us a call at <a href="tel:+9148020802730" className="font-medium">+91 480 20802730</a>.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7 w-full sm:w-11/12 md:w-5/6 lg:w-3/4 xl:w-2/3 mt-10 md:mt-16">
           <button className="font-poppins p-3 w-full border-white border-2 text-white">
