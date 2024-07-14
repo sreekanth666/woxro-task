@@ -11,7 +11,7 @@ const StaticCard: FC<StaticCardProps> = ({ title, description }) => {
             <p className='font-extralight text-5xl lg:text-6xl'>
                 {title}
             </p>
-            <p className='font-light w-[47%] md:w-[67%] leading-tight text-base lg:text-lg mt-4'>
+            <p className='font-light w-[47%] md:w-[66%] leading-tight text-base lg:text-lg mt-4'>
                 {description}
             </p>
         </div>
