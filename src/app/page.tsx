@@ -104,7 +104,7 @@ export default function Home() {
       </div>
 
       <div className="sm:px-14 md:px-32 lg:px-52 xl:px-80 font-extralight text-sm md:text-base  text-center mb-5 md:mb-10 mt-36 md:mt-56 flex flex-col items-center">
-        <p>&copy; 2019-2023 abcTechnology Solutions Pvt. Ltd. All Rights Reserved</p>
+        <p>© 2019-2023 abcTechnology Solutions Pvt. Ltd. All Rights Reserved</p>
       </div>
     </main>
   );
