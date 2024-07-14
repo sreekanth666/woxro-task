@@ -18,7 +18,7 @@ pnpm dev
 ```
 To run optimized production build:
 ```bash
-pnpm run build
+pnpm build
 pnpm start
 ```
 
