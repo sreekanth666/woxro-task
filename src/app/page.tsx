@@ -39,12 +39,12 @@ export default function Home() {
   return (
     <main className="font-roboto p-3">
       <div className="flex justify-end mb-3 md:p-7">
-        <IconX stroke={1} className="md:size-10" />
+        <IconX stroke={1} className=" md:size-10" />
       </div>
 
-      <div className="md:px-44 mb-20 md:mb-32">
+      <div className="sm:px-9 md:px-14 lg:px-28 xl:px-44 mb-20 md:mb-32">
         <div className="flex flex-col items-center gap-5 md:gap-10">
-          <p className="text-3xl sm:text-4xl font-[100] text-center w-11/12">
+          <p className="text-3xl md:text-4xl font-[100] text-center w-11/12">
             Epic Games : An American video game and software developer and publisher based in Cary, North Carolina.
           </p>
           <Image
@@ -62,15 +62,19 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="md:px-80 grid md:grid-cols-3 grid-cols-1 gap-10 mb-20 md:mb-32">
-        {
-          cardData.map((card, index) => (
-            <Card key={index} image={card.image} alt={card.alt} description={card.description} />
-          ))
-        }
+      <div className="sm:px-11 md:px-24 lg:px-36 xl:px-80 mb-20 md:mb-32">
+        <div className="flex overflow-x-auto lg:overflow-visible lg:grid lg:grid-cols-3 gap-10 scroll-smooth">
+          {
+            cardData.map((card, index) => (
+              <div key={index} className="flex-none w-72 lg:w-auto">
+                <Card key={index} image={card.image} alt={card.alt} description={card.description} />
+              </div>
+            ))
+          }
+        </div>
       </div>
 
-      <div className="md:px-80 text-center mb-20 md:mb-32">
+      <div className="sm:px-14 md:px-32 lg:px-52 xl:px-80 text-center mb-20 md:mb-32">
         <p className="font-roboto font-extralight text-2xl sm:text-3xl">Our Contribution</p>
         <p className="font-poppins text-center text-sm mt-4 font-light">
           Our core offering extends beyond mere profit generation; we emphasize the growth and active involvement of our user community. Collaborating with us represents an investment, rather than a mere expenditure. Our dedication to providing distinctive digital interactions guarantees unparalleled benefits for our clientele.
@@ -84,12 +88,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="md:px-80 text-center mb-20 md:mb-32 flex flex-col items-center">
-        <p className="font-roboto font-light text-2xl sm:text-4xl">Interested in Delving Deeper into the Project?</p>
-        <p className="text-center text-xl mt-6 md:mt-10 font-light md:w-3/4">
+      <div className="sm:px-14 md:px-32 lg:px-52 xl:px-80 text-center mb-20 md:mb-32 flex flex-col items-center">
+        <p className="font-roboto font-light text-2xl sm:text-3xl md:text-4xl">Interested in Delving Deeper into the Project?</p>
+        <p className="text-center text-lg md:text-xl mt-6 md:mt-10 font-light w-full sm:w-11/12 md:w-5/6 lg:w-3/4 xl:w-2/3 leading-tight">
           If you'd like to explore further details about our initiatives or any of our affiliated brands, don't hesitate to connect. You can reach out to us via email at <span className="font-medium">hello@abc.com</span> or give us a call at <span className="font-medium">+91 480 20802730</span>.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-7 w-full md:w-2/3 mt-10 md:mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-7 w-full sm:w-11/12 md:w-5/6 lg:w-3/4 xl:w-2/3 mt-10 md:mt-16">
           <button className="font-poppins p-3 w-full border-white border-2 text-white">
             Ring us on Skype
           </button>
@@ -99,7 +103,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="md:px-80 font-extralight  text-center mb-5 md:mb-10 mt-36 md:mt-56 flex flex-col items-center">
+      <div className="sm:px-14 md:px-32 lg:px-52 xl:px-80 font-extralight text-sm md:text-base  text-center mb-5 md:mb-10 mt-36 md:mt-56 flex flex-col items-center">
         <p>© 2019-2023 abcTechnology Solutions Pvt. Ltd. All Rights Reserved</p>
       </div>
     </main>
