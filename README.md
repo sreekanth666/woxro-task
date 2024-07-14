@@ -7,7 +7,7 @@ This project is built using Next.js and React.js with pnpm as the package manage
 - Fully responsive design
 - Optimized font loading using [`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
 - Server-Side Rendering (SSR) for better performance.
-- Optimized image rendering using `next/image` and `sharp`.
+- Optimized image rendering using [`next/image`](https://nextjs.org/docs/pages/api-reference/components/image) and [`sharp`](https://sharp.pixelplumbing.com/).
 
 ## Getting Started
 
